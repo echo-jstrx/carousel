@@ -38,8 +38,17 @@ document.addEventListener("DOMContentLoaded", function() {
   // Thumbnail click events
   thumbnails.forEach((thumbnail, index) => {
     thumbnail.addEventListener('click', () => {
-      showSlide(index);
+      changeSlide(index);
     });
   });
+
+  function changeSlide(index){
+    slideIndex = index;
+    
+    // Hide all slides
+    slides.forEach(slide => {
+      slide.style.transform = `translateX(-${slideIndex * 100}%)`;
+    });
+  }
 
 });

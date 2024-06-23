@@ -14,6 +14,9 @@
   min-width: 100%; /* Each slide takes full width */
   transition: transform 0.5s ease; /* Smooth sliding animation */
 }
+.slide img {
+  width: 100%; /* Each slide takes full width */
+}
 
 /* Style for video tag to make it responsive */
 .slide video {

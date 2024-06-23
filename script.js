@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Thumbnail click events
-  // thumbnails.forEach((thumbnail, slideIndex) => {
-  //   thumbnail.addEventListener('click', () => {
-  //     showSlide(slideIndex);
-  //   });
-  // });
+  thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => {
+      showSlide(index);
+    });
+  });
 
 });

@@ -9,20 +9,24 @@ document.addEventListener("DOMContentLoaded", function() {
   let slideIndex = 0;
   const totalSlides = slides.length;
 
-  // Function to show slide based on slideIndex
-  function showSlide(index) {
-    // Wrap around if index is out of bounds
-    if (index < 0) {
-      slideIndex = totalSlides - 1;
-    } else if (index >= totalSlides) {
-      slideIndex = 0;
-    }
-
-    // Hide all slides
-    slides.forEach((slide, idx) => {
-      slide.style.transform = `translateX(${(idx - slideIndex) * -100}%)`;
-    });
+// Function to show slide based on slideIndex
+function showSlide(index) {
+  // Wrap around if index is out of bounds
+  if (index < 0) {
+    slideIndex = totalSlides - 1;
+  } else if (index >= totalSlides) {
+    slideIndex = 0;
   }
+
+  // Hide all slides except the current slide
+  slides.forEach((slide, slideIndex) => {
+    if (slideIndex === index) {
+      slide.style.transform = `translateX(0)`;
+    } else {
+      slide.style.transform = `translateX(-100%)`;
+    }
+  });
+}
 
   // Next slide button click event
   nextBtn.addEventListener('click', () => {

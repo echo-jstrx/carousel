@@ -43,24 +43,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // Autoplay (uncomment to enable autoplay)
-  /*
-  let autoplayInterval = setInterval(() => {
-    slideIndex++;
-    showSlide(slideIndex);
-  }, 3000);
-
-  // Pause autoplay on user interaction
-  carousel.addEventListener('mouseover', () => {
-    clearInterval(autoplayInterval);
-  });
-
-  carousel.addEventListener('mouseout', () => {
-    autoplayInterval = setInterval(() => {
-      slideIndex++;
-      showSlide(slideIndex);
-    }, 3000);
-  });
-  */
-
 });

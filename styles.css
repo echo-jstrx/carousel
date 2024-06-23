@@ -1,0 +1,43 @@
+/* styles.css */
+.carousel-container {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%; /* Each slide takes full width */
+  transition: transform 0.5s ease; /* Smooth sliding animation */
+}
+
+/* Style for video tag to make it responsive */
+.slide video {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation buttons */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn {
+  left: 10px;
+}

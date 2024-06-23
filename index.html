@@ -8,7 +8,7 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="carousel-container">
+  <div class="carousel-container-outter">
     <div class="thumbnail-container">
       <div class="thumbnail">
         <img src="hero-red-samurai.jpg" alt="Thumbnail 1">
@@ -18,17 +18,20 @@
       </div>
       <!-- Add more thumbnails as needed -->
     </div>
-    <div class="carousel">
-      <div class="slide">
-        <img src="hero-red-samurai.jpg" alt="Photo 1">
+    <div class="carousel-container">
+  
+      <div class="carousel">
+        <div class="slide">
+          <img src="hero-red-samurai.jpg" alt="Photo 1">
+        </div>
+        <div class="slide">
+          <img src="hero-green-alien-2.jpg" alt="Photo 2">
+        </div>
+        <!-- Add more slides as needed -->
       </div>
-      <div class="slide">
-        <img src="hero-green-alien-2.jpg" alt="Photo 2">
-      </div>
-      <!-- Add more slides as needed -->
+      <button class="prev-btn">Prev</button>
+      <button class="next-btn">Next</button>
     </div>
-    <button class="prev-btn">Prev</button>
-    <button class="next-btn">Next</button>
   </div>
 
 </body>

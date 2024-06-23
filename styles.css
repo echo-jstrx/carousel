@@ -15,9 +15,12 @@ body {
 }
 
 .slide {
+  display: flex;
   margin-left: auto;
   min-width: 100%; /* Each slide takes full width */
   transition: transform 0.5s ease; /* Smooth sliding animation */
+  justify-content: center;
+  align-items: center;
 }
 .slide img {
   width: 100%; /* Each slide takes full width */

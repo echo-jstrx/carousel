@@ -5,7 +5,6 @@ body {
 /* styles.css */
 .carousel-container {
   max-width: 500px;
-  margin: auto;
   position: relative;
 }
 
@@ -53,12 +52,12 @@ body {
 
 /* Thumbnail container */
     .thumbnail-container {
-      width: 80%; /* Adjust width as needed */
+      width: 100%; /* Adjust width as needed */
       overflow-y: auto; /* Enable scrolling if needed */
     }
     
     .thumbnail {
-      margin-bottom: 10px;
+      margin: 10px;
       cursor: pointer;
     }
     

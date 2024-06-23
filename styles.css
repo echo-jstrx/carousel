@@ -14,7 +14,7 @@ body {
 }
 
 .slide {
-  margin: auto;
+  margin-left: auto;
   min-width: 100%; /* Each slide takes full width */
   transition: transform 0.5s ease; /* Smooth sliding animation */
 }

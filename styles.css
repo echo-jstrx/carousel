@@ -52,11 +52,11 @@ body {
 
 /* Thumbnail container */
     .thumbnail-container {
-      width: 100%; /* Adjust width as needed */
+/*       width: 100%; */
       overflow-y: auto; /* Enable scrolling if needed */
     }
     
-    .thumbnail {
+    .thumbnail {  
       margin: 10px;
       cursor: pointer;
     }

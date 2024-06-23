@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   */
    // JavaScript to handle carousel navigation
-    const slides = document.querySelectorAll('.slide');
+    // const slides = document.querySelectorAll('.slide');
     const thumbnails = document.querySelectorAll('.thumbnail');
 
     thumbnails.forEach((thumbnail, index) => {

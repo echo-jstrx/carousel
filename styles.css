@@ -16,7 +16,7 @@ body {
 
 .slide {
   margin: auto;
-  max-width: 100%; /* Each slide takes full width */
+  min-width: 100%; /* Each slide takes full width */
   transition: transform 0.5s ease; /* Smooth sliding animation */
 }
 .slide img {

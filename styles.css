@@ -70,6 +70,6 @@ body {
 .carousel-container-outter {
   display: flex;
   max-width: 750px;
-  max-height: 720px;
+  max-height: 500px;
   background-color: white;
 }

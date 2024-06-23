@@ -53,5 +53,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 3000);
   });
   */
+   // JavaScript to handle carousel navigation
+    const slides = document.querySelectorAll('.slide');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+
+    thumbnails.forEach((thumbnail, index) => {
+      thumbnail.addEventListener('click', () => {
+        showSlide(index);
+      });
+    });
+
+    function showSlide(slideIndex) {
+      slides.forEach((slide, index) => {
+        slide.style.transform = `translateX(${(index - slideIndex) * -100}%)`;
+      });
+    }
 
 });

@@ -16,6 +16,7 @@
 }
 .slide img {
   width: 100%; /* Each slide takes full width */
+  height: auto;
 }
 
 /* Style for video tag to make it responsive */

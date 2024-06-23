@@ -45,3 +45,20 @@
 .prev-btn {
   left: 10px;
 }
+
+/* Thumbnail container */
+    .thumbnail-container {
+      width: 100px; /* Adjust width as needed */
+      overflow-y: auto; /* Enable scrolling if needed */
+    }
+    
+    .thumbnail {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    .thumbnail img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }

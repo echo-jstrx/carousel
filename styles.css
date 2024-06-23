@@ -53,7 +53,7 @@ body {
 
 /* Thumbnail container */
     .thumbnail-container {
-      width: 100px; /* Adjust width as needed */
+      width: 80%; /* Adjust width as needed */
       overflow-y: auto; /* Enable scrolling if needed */
     }
     

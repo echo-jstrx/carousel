@@ -4,7 +4,7 @@ body {
 
 /* styles.css */
 .carousel-container {
-  max-width: 500px;
+/*   max-width: 500px; */
   position: relative;
 }
 
@@ -70,5 +70,6 @@ body {
 .carousel-container-outter {
   display: flex;
   max-width: 750px;
+  max-height: 720px;
   background-color: white;
 }

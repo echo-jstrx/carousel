@@ -11,6 +11,7 @@ body {
 .carousel {
   display: flex;
   overflow: hidden;
+  max-height: 500px;
 }
 
 .slide {

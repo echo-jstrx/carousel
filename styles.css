@@ -62,3 +62,8 @@
       height: auto;
       display: block;
     }
+
+.carousel-container-outter {
+  display: flex;
+  
+}

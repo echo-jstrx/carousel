@@ -4,17 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const slides = document.querySelectorAll('.slide');
   const prevBtn = document.querySelector('.prev-btn');
   const nextBtn = document.querySelector('.next-btn');
-  const thumbnails = document.querySelectorAll('.thumbnail');
-
-  let slideIndex = 0;
-  const totalSlides = slides.length;
-
-// script.js
-document.addEventListener("DOMContentLoaded", function() {
-  const carousel = document.querySelector('.carousel');
-  const slides = document.querySelectorAll('.slide');
-  const prevBtn = document.querySelector('.prev-btn');
-  const nextBtn = document.querySelector('.next-btn');
 
   let slideIndex = 0;
   const totalSlides = slides.length;
